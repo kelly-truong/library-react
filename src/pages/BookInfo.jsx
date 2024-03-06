@@ -13,10 +13,8 @@ const BookInfo = ({ books, addToCart, cart }) => {
         addToCart(book)
     }
 
-    console.log(books)
-
     function bookExistsOnCart() {
-        return cart.find(book => book.id === id)
+        return cart?.find(book => book.id === id)
     }
 
     return (
