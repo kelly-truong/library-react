@@ -240,7 +240,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 24px;
+  padding-top: 24px;
 }
 
 .header__description {
