@@ -7,20 +7,13 @@ import Price from "./Price"
 const Book = ({ book }) => {
     const [img, setImg] = useState()
 
-    const mountedRef = useRef(true)
-
     useEffect(() => {
         const image = new Image()
         image.src = book.url
         image.onload = () => {
             setTimeout(() => {
-                if (mountedRef.current) {
-                    setImg(image)
-                }
+                setImg(image)
             }, 300)
-        }
-        return () => {
-            mountedRef.current = false
         }
     }, [])
 

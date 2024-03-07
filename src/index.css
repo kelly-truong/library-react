@@ -57,7 +57,7 @@ li {
 
 h1 {
   font-size: 56px;
-  color: #7342d6;
+  color: #f78fa9;
   margin-bottom: 24px;
   text-align: center;
 }
@@ -77,7 +77,7 @@ button:active {
 }
 
 .btn {
-  background-color: #7342d6;
+  background-color: #f78fa9;
   color: white;
   padding: 12px 24px;
   font-size: 20px;
@@ -85,12 +85,13 @@ button:active {
   border: none;
 }
 
-.purple {
-  color: #7342d6;
+.pink {
+  color: #f78fa9;
 }
 
 .logo {
   width: 160px;
+  filter:grayscale(1)
 }
 
 .nav__container {
@@ -108,7 +109,7 @@ button:active {
   font-size: 20px;
   font-weight: bold;
   padding: 8px;
-  color: #7342d6;
+  color: #f78fa9;
 }
 
 .nav__list {
@@ -123,7 +124,7 @@ button:active {
 }
 
 .nav__link--primary {
-  border: 2px solid #7342d6;
+  border: 2px solid #f78fa9;
   border-radius: 4px;
 }
 
@@ -135,14 +136,14 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #7342d6;
+  color: #f78fa9;
   font-size: 20px;
   position: relative;
   margin-left: 8px;
 }
 
 .cart__length {
-  background-color: red;
+  background-color: #f78fa9;
   color: white;
   width: 18px;
   height: 18px;
@@ -161,7 +162,7 @@ button:active {
   background-color: transparent;
   font-size: 32px;
   border: none;
-  color: #7342d6;
+  color: #f78fa9;
   display: none;
 }
 
@@ -224,7 +225,7 @@ LANDING
 */
 
 #landing {
-  background-color: rgba(115, 66, 214, 0.1)
+  background-color: #f7eef3;
 }
 
 header {
@@ -239,6 +240,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 24px;
 }
 
 .header__description {
@@ -336,8 +338,8 @@ HIGHLIGHTS
 }
 
 .highlight__img {
-  border: 2px solid #7342d65d;
-  color: #7342d6;
+  border: 2px solid #f78fa994;
+  color: #f78fa9;
   width: 100px;
   height: 100px;
   display: flex;
@@ -362,7 +364,7 @@ FEATURES
 
 #features {
   padding-top: 8vw;
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #f7eef3;
 }
 
 .books {
@@ -453,7 +455,7 @@ EXPLORE
 */
 
 #explore {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #f7eef3;
 }
 
 /* 
@@ -647,7 +649,7 @@ select {
 */
 
 .cart__header {
-  background-color: #7342d6;
+  background-color: #f78fa9;
   margin: 0 24px;
   padding: 8px 16px;
   color: white;

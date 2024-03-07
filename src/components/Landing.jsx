@@ -1,5 +1,5 @@
 import React from 'react'
-import UndrawBooks from '../assets/Undraw_Books.svg'
+import UndrawBooks from '../assets/undraw_bear.svg'
 import { Link } from 'react-router-dom'
 
 const Landing = () => {
@@ -8,7 +8,7 @@ const Landing = () => {
             <div className="header__container">
                 <div className="header__description">
                     <h1>Australia's most awarded online library platform</h1>
-                    <h2>Find your dream book with <span className="purple">Library</span></h2>
+                    <h2>Find your dream book with <span className="pink">Library</span></h2>
                     <Link to="/books">
                         <button className="btn">Browse books</button>
                     </Link>
